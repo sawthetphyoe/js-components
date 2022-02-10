@@ -10,7 +10,7 @@ const btnRight = document.querySelector(".carousel__btn--right");
 let transSec = slider.dataset.transSec;
 !transSec && (transSec = 0.5);
 
-// For AUTOMATIC slide change
+// For AUTOMATIC slide changes
 const autoSlide = slider.classList.contains("slider--autoslide") ? true : false;
 let autoSlideInterval = slider.dataset.interval * 1000;
 !autoSlideInterval && (autoSlideInterval = 5000);
