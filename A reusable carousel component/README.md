@@ -1,4 +1,4 @@
-###### Reusable carousel component by sawthet
+# Reusable carousel component by sawthet
 
 This js file create a carousel component in which you can add **as many slides as you want.**
 
@@ -21,7 +21,7 @@ All you need to do is to mark up your html element with these certain class name
 			<button class="carousel__btn--right">create your right botton</button>
 </div>
 
-**To specify width and height of class-name-caruosel element is REQUIRED**
+**To specify width and height of class-name-caruosel element is REQUIRED.**
 **Other styles to this element is OPTIONAL.**
 
 ---
@@ -30,30 +30,30 @@ All you need to do is to mark up your html element with these certain class name
 
 Class names [slider--dots] and [slider--autoslide] are optional.
 
-# slider--autoslide
+##### slider--autoslide
 
 Add this class name if you want to change to next slide after every 5 seconds. You can change the interval.Check customization section.
 
-# slider--dots
+##### slider--dots
 
 Add this class name if you want to add dots which can track the current slide. The dots can also be clicked to change the slide directly to the clicked one.
 
 ---
 
-#### Customization the effect
+## Customization the effect
 
 All these customization are also optional.
 
-# To change the transition time
+### To change the transition time
 
 Add a special data attribute to slider element like this [data-trans-sec='1'] which default value is 0.5 second.
 
-# To change the interval for autoslide
+### To change the interval for autoslide
 
 Add a special data attribute to the slider element like this [data-interval='8'].
 This change the interval to [8s] from default value [5s].
 
-# To customize styles of dots
+### To customize styles of dots
 
 You can also customize dots by adding special data attributes to slider element.
 
@@ -72,7 +72,7 @@ For spaces between dots
 
 ---
 
-### The complete markup format with all possible customizations will be as below.
+## The complete markup format with all possible customizations will be as below.
 
 <div class="carousel">
 	<div class="slider slider--dots slider--autoslide"
