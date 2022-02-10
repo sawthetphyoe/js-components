@@ -6,7 +6,7 @@ All you need to do is to mark up your html element with these certain class name
 
 ## The format is as below.
 
-<div class="carousel">
+<!-- <div class="carousel">
 	<div class="slider slider--dots slider--autoslide">
 			<div class="slide">
 				create first slide
@@ -19,7 +19,7 @@ All you need to do is to mark up your html element with these certain class name
 			</div>
 			<button class="carousel__btn--left">create your left button</button>
 			<button class="carousel__btn--right">create your right botton</button>
-</div>
+</div> -->
 
 **To specify width and height of class-name-caruosel element is REQUIRED.**
 **Other styles to this element is OPTIONAL.**
@@ -74,7 +74,7 @@ For spaces between dots
 
 ## The complete markup format with all possible customizations will be as below.
 
-<div class="carousel">
+<!-- <div class="carousel">
 	<div class="slider slider--dots slider--autoslide"
   data-trans-sec='1'
   data-interval='8'
@@ -94,4 +94,4 @@ For spaces between dots
 			</div>
 			<button class="carousel__btn--left">create your left button</button>
 			<button class="carousel__btn--right">create your right botton</button>
-</div>
+</div> -->
