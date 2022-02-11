@@ -6,20 +6,23 @@ All you need to do is to mark up your html element with these certain class name
 
 ## The format is as below.
 
-<!-- <div class="carousel">
+```
+<div class="carousel">
 	<div class="slider slider--dots slider--autoslide">
-			<div class="slide">
-				create first slide
-			</div>
-			<div class="slide">
-				create second slide
-			</div>
-			<div class="slide">
+		<div class="slide">
+			create first slide
+		</div>
+		<div class="slide">
+			create second slide
+		</div>
+		<div class="slide">
         create third slide
-			</div>
-			<button class="carousel__btn--left">create your left button</button>
-			<button class="carousel__btn--right">create your right botton</button>
-</div> -->
+		</div>
+    </div>
+		<button class="carousel__btn--left">create your left button</button>
+		<button class="carousel__btn--right">create your right botton</button>
+</div>
+```
 
 **To specify width and height of class-name-caruosel element is REQUIRED.**
 **Other styles to this element is OPTIONAL.**
@@ -74,24 +77,27 @@ For spaces between dots
 
 ## The complete markup format with all possible customizations will be as below.
 
-<!-- <div class="carousel">
+```
+<div class="carousel">
 	<div class="slider slider--dots slider--autoslide"
-  data-trans-sec='1'
-  data-interval='8'
-  data-dot-color='red'
-  data-dot-color-active='blue'
-  data-dot-size='10px'
-  data-dot-position='5%'
-  data-dot-gap='10px'>
-			<div class="slide">
-					create first slide
-			</div>
-			<div class="slide">
-					create second slide
-			</div>
-			<div class="slide">
-          create third slide
-			</div>
-			<button class="carousel__btn--left">create your left button</button>
-			<button class="carousel__btn--right">create your right botton</button>
-</div> -->
+    data-trans-sec='1'
+    data-interval='8'
+    data-dot-color='red'
+    data-dot-color-active='blue'
+    data-dot-size='10px'
+    data-dot-position='5%'
+    data-dot-gap='10px'>
+        <div class="slide">
+            create first slide
+        </div>
+        <div class="slide">
+            create second slide
+        </div>
+        <div class="slide">
+            create third slide
+		</div>
+    </div>
+	<button class="carousel__btn--left">create your left button</button>
+	<button class="carousel__btn--right">create your right botton</button>
+</div>
+```
