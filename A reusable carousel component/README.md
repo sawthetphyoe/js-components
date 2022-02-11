@@ -79,25 +79,25 @@ For spaces between dots
 
 ```
 <div class="carousel">
-	<div class="slider slider--dots slider--autoslide"
-    data-trans-sec='1'
-    data-interval='8'
-    data-dot-color='red'
-    data-dot-color-active='blue'
-    data-dot-size='10px'
-    data-dot-position='5%'
-    data-dot-gap='10px'>
-        <div class="slide">
-            create first slide
-        </div>
-        <div class="slide">
-            create second slide
-        </div>
-        <div class="slide">
-            create third slide
-		</div>
-    </div>
-	<button class="carousel__btn--left">create your left button</button>
-	<button class="carousel__btn--right">create your right botton</button>
+<div class="slider slider--dots slider--autoslide"
+data-trans-sec='1'
+data-interval='8'
+data-dot-color='red'
+data-dot-color-active='blue'
+data-dot-size='10px'
+data-dot-position='5%'
+data-dot-gap='10px'>
+<div class="slide">
+    create first slide
+</div>
+<div class="slide">
+    create second slide
+</div>
+<div class="slide">
+    create third slide
+</div>
+</div>
+<button class="carousel__btn--left">create your left button</button>
+<button class="carousel__btn--right">create your right botton</button>
 </div>
 ```
