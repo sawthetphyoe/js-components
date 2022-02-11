@@ -8,30 +8,31 @@ All you need to do is to mark up your html element with these certain class name
 
 ```
 <div class="carousel">
-	<div class="slider slider--dots slider--autoslide">
-		<div class="slide">
-			create first slide
-		</div>
-		<div class="slide">
-			create second slide
-		</div>
-		<div class="slide">
-        create third slide
-		</div>
+    <div class="slider slider--dots slider--autoslide">
+        <div class="slide">
+            create first slide
+        </div>
+        <div class="slide">
+            create second slide
+        </div>
+        <div class="slide">
+            create third slide
+        </div>
     </div>
-		<button class="carousel__btn--left">create your left button</button>
-		<button class="carousel__btn--right">create your right botton</button>
+    <button class="carousel__btn--left">create your left button</button>
+    <button class="carousel__btn--right">create your right botton</button>
 </div>
 ```
 
-**To specify width and height of class-name-caruosel element is REQUIRED.**
-**Other styles to this element is OPTIONAL.**
+_To specify width and height of class-name-caruosel element is REQUIRED._
+
+_Other styles to this element is OPTIONAL._
 
 ---
 
 ### Optional class names
 
-Class names [slider--dots] and [slider--autoslide] are optional.
+Class names slider--dots and slider--autoslide are optional.
 
 ##### slider--autoslide
 
@@ -49,29 +50,33 @@ All these customization are also optional.
 
 ### To change the transition time
 
-Add a special data attribute to slider element like this [data-trans-sec='1'] which default value is 0.5 second.
+Add a special data attribute to slider element like this data-trans-sec='1' which default value is 0.5 second.
 
 ### To change the interval for autoslide
 
-Add a special data attribute to the slider element like this [data-interval='8'].
-This change the interval to [8s] from default value [5s].
+Add a special data attribute to the slider element like this data-interval='8'.
+This change the interval to 8s from default value 5s.
 
 ### To customize styles of dots
 
 You can also customize dots by adding special data attributes to slider element.
 
 For dot sizes
-=> [data-dot-size='10px'] // default is 7px.
+
+> data-dot-size='10px' // default is 7px.
 
 For dot colors
-=> [data-dot-color='red'] // default is #676767
-=> [data-dot-color-active='blue'] // default is #222
+
+> data-dot-color='red' // default is #676767
+> data-dot-color-active='blue' // default is #222
 
 For dot position from bottom of carousel
-=> [data-dot-position='5%'] // default is 3%
+
+> data-dot-position='5%' // default is 3%
 
 For spaces between dots
-=> [data-dot-gap='10px'] // default is 8px
+
+> data-dot-gap='10px' // default is 8px
 
 ---
 
